@@ -1,4 +1,4 @@
 
-https://fadiabdeen.github.io/Conway/
+https://fadiabdeen.github.io/ConwayGOL/
 
 # ConwayGOL
