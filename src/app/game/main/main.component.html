@@ -1,0 +1,23 @@
+
+<div class="main">
+	<div class="row" *ngFor="let row of matrix.rows">
+
+		<div class="block" *ngFor="let column of row.columns" 
+		(click)="active(column.block)" 
+		[ngClass]="{ 'active': column.block.active == true }">
+			
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			Steps : {{steps}}
+		</div>
+
+
+	</div>
+	<div class=" actions">
+		<div *ngIf="stopFlag" class=" btn btn-primary" (click)="run()"> Go !</div>
+		<div *ngIf="!stopFlag" class=" btn btn-danger" (click)="stop()"> Stop</div>
+		<div *ngIf="blocks.length>0"class=" btn btn-danger" (click)="clear()"> Clear</div>
+	</div>
+</div>

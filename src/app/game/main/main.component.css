@@ -1,0 +1,20 @@
+.main{
+	margin: auto;
+	max-width: 700px; 
+	margin-top: 20px;
+}
+
+.block{	
+	width: 10px;
+	height: 10px;
+	border: 1px solid lightgray;
+	margin: 0.5px;
+}
+
+.active{
+	background-color: orange;
+}
+
+.actions{
+	padding:20px;
+}

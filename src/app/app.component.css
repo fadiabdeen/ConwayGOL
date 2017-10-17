@@ -1,0 +1,17 @@
+.welcome{
+	margin-top: 20px;
+}
+
+.container{
+	text-align: center;
+}
+
+.start {
+max-width: 700px;
+margin:auto;
+}
+
+.form {
+	padding: 20px;
+		text-align: center;
+}
